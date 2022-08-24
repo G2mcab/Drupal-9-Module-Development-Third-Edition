@@ -10,7 +10,7 @@ command: |
       ddev start -y
       sudo apt update
       sudo apt install php php-xmlwriter -y
-      export PATH="$PATH:vendor/bin"
+#      export PATH="$PATH:vendor/bin"
 
 # VScode xdebug extension
 vscode:
@@ -20,10 +20,8 @@ vscode:
     - wongjn.php-sniffer
     - neilbrayfield.php-docblocker
     - bmewburn.vscode-intelephense-client
-
     # Twig extensions.
     - mblode.twig-language-2
-
     #other extensions
     - eamodio.gitlens
 
