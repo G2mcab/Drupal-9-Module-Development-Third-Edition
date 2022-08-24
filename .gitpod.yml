@@ -6,11 +6,11 @@ tasks:
   - init: |
       ddev start -y
       ddev composer install
-command: |
+  - command: |
       ddev start -y
       sudo apt update
       sudo apt install php php-xmlwriter -y
-#      export PATH="$PATH:vendor/bin"
+      export PATH="$PATH:vendor/bin"
 
 # VScode xdebug extension
 vscode:
