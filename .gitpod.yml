@@ -13,6 +13,8 @@ tasks:
       export PATH="$PATH:vendor/bin"
       ddev composer require drupal/recommended-project
       ddev composer require drush/drush
+      ddev composer require drupal/coder -y
+      ddev drush si -y --account-pass=admin
 
 # VScode xdebug extension
 vscode:
