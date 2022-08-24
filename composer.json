@@ -1,13 +1,15 @@
 {
     "require": {
         "drupal/recommended-project": "^9.4",
-        "drush/drush": "^11.1"
+        "drush/drush": "^11.1",
+        "drupal/coder": "^8.3"
     },
     "config": {
         "allow-plugins": {
             "drupal/core-project-message": true,
             "drupal/core-composer-scaffold": true,
-            "composer/installers": true
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }
