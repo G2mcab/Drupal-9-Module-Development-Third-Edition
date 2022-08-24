@@ -11,6 +11,7 @@ tasks:
       sudo apt update
       sudo apt install php php-xmlwriter -y
       export PATH="$PATH:vendor/bin"
+      ddev composer require drupal/recommended-project
 
 # VScode xdebug extension
 vscode:
