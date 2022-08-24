@@ -1,0 +1,13 @@
+{
+    "require": {
+        "drupal/recommended-project": "^9.4",
+        "drush/drush": "^11.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "drupal/core-project-message": true,
+            "drupal/core-composer-scaffold": true,
+            "composer/installers": true
+        }
+    }
+}
